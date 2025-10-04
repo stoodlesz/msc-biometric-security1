@@ -29,6 +29,7 @@ env/
 
 # Ignore datasets
 datasets/
+Datasets/
 *.zip
 
 # Ignore dataset folders
@@ -54,3 +55,6 @@ env/
 
 # Ignore system files
 .DS_Store
+
+# Ignore trained models
+models/*.pt
