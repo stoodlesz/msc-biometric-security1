@@ -1,0 +1,56 @@
+
+# Ignore datasets
+datasets/
+*.zip
+
+# Ignore dataset folders
+lfw-deepfunneled/
+img_align_celeba/
+*.zip
+
+# Ignore any Kaggle API keys
+.kaggle/
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore datasets
+datasets/
+*.zip
+
+# Ignore dataset folders
+lfw-deepfunneled/
+img_align_celeba/
+*.zip
+
+# Ignore any Kaggle API keys
+.kaggle/
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
