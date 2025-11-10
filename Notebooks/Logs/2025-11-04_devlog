@@ -112,3 +112,14 @@ This aligns with **real biometric security requirements** and SME constraints.
 > “Adversarial evaluation is not just about perturbing images — it’s about simulating how real attackers behave and how authentication rules fail.”
 
 Draft‑3 now provides realistic adversarial failure cases and measurable defence baselines.
+
+### Charts
+
+Here is the chart visualising the difference between self-break success and impersonation success across varying PGD attack strengths (epsilon):
+(see matplotlib-figure1 plot in the parent folder)
+
+### Interpretation
+
+Self-Break Rate: Shows how well the PGD attack disrupts the model’s ability to recognise an original image as itself. At ε = 0.4, we reach a 93% break rate - a strong indicator that the model is highly vulnerable to these perturbations.
+
+Impersonation Rate: Measures how often the attacked image is successfully misidentified as someone else. This rises more gradually, suggesting that impersonation is harder, but becomes feasible (>50%) beyond ε = 0.3.
