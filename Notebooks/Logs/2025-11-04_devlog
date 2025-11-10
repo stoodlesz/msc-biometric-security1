@@ -67,7 +67,7 @@ These stronger parameters will be used to ensure meaningful attack pressure.
 
 ---
 
-### 🔚 Conclusion
+### Conclusion
 
 Draft 2 highlighted critical evaluation issues and led to a redefinition of success metrics. Although PGD was implemented correctly, poor thresholding meant it was falsely judged ineffective. The next phase will test both identity degradation and impersonation risk in a more realistic threat model.
 
